@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Ejercicio 02/2 - Tablas en HTML</title>
+    </head>
+    <body> 
+        <h1>Bienvenido, indique cuales son sus 3 libros favoritos</h1>
+        <h2>Introducir los datos del primero</h2>
+        <br>
+        <form action="resultados.html" method="get"> 
+            <div>
+            <label for="nombredelprimero">Titulo</label> 
+            <input name="nombredelprimero" id="nombredelprimero" required/>
+        </div>
+        <br>
+            <div>
+            <label for="autordelprimero">Autor</label> 
+            <input name="autordelprimero" id="autordelprimero" required/>
+        </div>
+        <br>
+            <div>
+            <label for="añodelprimero">Año de publicación</label> 
+            <input type="number" name="añodelprimero" id="añodelprimero" step="10" required/>
+        </div>
+        <br>
+            <div>
+            <label for="enlacedelprimero">Enlace a Amazon</label> 
+            <input type="url" name="enlacedelprimero" id="enlacedelprimero" required/>
+            </div>
+        <h2>Introducir los datos del segundo</h2> 
+        <br>
+            <div>
+            <label for="nombredelsegundo">Titulo</label> 
+            <input name="nombredelsegundo" id="nombredelsegundo" required/>
+        </div>
+        <br>
+        <div>
+        <label for="autordelsegundo">Autor</label> 
+        <input name="autordelsegundo" id="autordelsegundo" required/>
+    </div>
+    <br>
+        <div>
+        <label for="añodelsegundo">Año de publicación</label> 
+        <input type="number" name="añodelsegundo" id="añodelsegundo" step="10" required/>
+    </div>
+    <br>
+        <div>
+        <label for="enlacedelsegundo">Enlace a Amazon</label> 
+        <input type="url" name="enlacedelsegundo" id="enlacedelsegundo" required/>
+    </div>
+        <h2>Introducir los datos del tercero</h2>
+        <br>
+        <div>
+            <label for="nombredeltercero">Titulo</label> 
+            <input name="nombredeltercero" id="nombredeltercero" required/>
+        </div>
+        <br>
+        <div>
+        <label for="autordeltercero">Autor</label> 
+        <input name="autordeltercero" id="autordeltercero" required/>
+    </div>
+    <br>
+        <div>
+        <label for="añodeltercero">Año de publicación</label> 
+        <input type="number" name="añodeltercero" id="añodeltercero" step="10" required/>
+    </div>
+    <br>
+        <div>
+        <label for="enlacedeltercero">Enlace a Amazon</label> 
+        <input type="url" name="enlacedeltercero" id="enlacedeltercero" required/>
+    </div>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
